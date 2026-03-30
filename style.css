@@ -1,0 +1,48 @@
+/*Box sizing*/
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/*Body full screen*/
+body{
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*Container spacing using viewport units*/
+.image-container {
+    /*10% top-buttom,25%left-right*/
+    padding: 10vh 25vw;
+    height: 100vh;
+   
+}
+/*center content*/
+.box{
+    text-align: center;
+}
+/*img styling*/
+.box img {
+   width: 100%; /* Makes the image take the full width of the div */
+   display: block; 
+}
+
+/*button styling*/
+
+button{
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    border: none;
+    /* gradient background (liner, top to right)*/
+
+     background: linear-gradient(to right,yellow,green);
+ 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white; /* text colour*/
+    cursor: pointer;
+ 
+
+}
